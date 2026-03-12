@@ -1,8 +1,10 @@
-# systools — GPU VRAM allocation utilities for PyTorch
+# systools — System utilities for Python
 
 ## Overview
 
-`systools` lets you allocate and hold a precise target amount of GPU VRAM using PyTorch. It is useful for:
+`systools` is a growing collection of system-level utilities for Python.
+
+The current release includes a GPU VRAM allocation tool for PyTorch, useful for:
 
 - **Testing memory limits** — verify your workload fits within a budget
 - **Reserving VRAM** — pre-occupy memory to simulate a loaded GPU
